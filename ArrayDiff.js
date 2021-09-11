@@ -1,4 +1,4 @@
-function arrayDiff(a, b){
+function arrayDiff(a,b){
    let John = [];
 
   if (a.length === 0) {
