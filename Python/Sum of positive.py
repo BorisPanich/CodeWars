@@ -8,7 +8,8 @@ def positive_sum(arr):
 
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)
-# return sum([x for x in arr if x==abs(x)])
 
+
+# return sum([x for x in arr if x==abs(x)])
 
 positive_sum = lambda a: sum(e for e in a if e > 0)
